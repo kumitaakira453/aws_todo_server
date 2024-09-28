@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Local environment settings:
+.env
+
+# Media and static files (optional):
+/media
+/static
+
+# Poetry files
+poetry.lock
+
+# If you're using virtual environments:
+venv/
+.env/
+
+# Migrations (optional):
+**/migrations/*
+!**/migrations/__init__.py
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+
+# テスト用
+test.py

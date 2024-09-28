@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aws-todo-back"
+version = "0.1.0"
+description = ""
+authors = ["Kumita Akira <akira_kumita@demia.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.1"
+djangorestframework = "^3.15.2"
+django-cors-headers = "^4.4.0"
+requests = "^2.32.3"
+django-extensions = "^3.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
