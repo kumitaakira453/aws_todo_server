@@ -1,10 +1,8 @@
----
-title:"aws-todo-back"仕様書
----
+# aws-todo-back
 
 ##　 DB 構成
 
-````python
+```python
 class Todo(models.Model):
     title = models.CharField(max_length=200)
     detail = models.TextField(null=True, blank=True)  # detailが空でもOK
@@ -53,7 +51,7 @@ class Todo(models.Model):
     }
   ]
 }
-````
+```
 
 ### 2.Todo の新規作成
 
