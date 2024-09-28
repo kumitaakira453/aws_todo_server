@@ -1,6 +1,6 @@
 # aws-todo-back
 
-##　 DB 構成
+##　DB 構成
 
 ```python
 class Todo(models.Model):
@@ -96,7 +96,7 @@ class Todo(models.Model):
 }
 ```
 
-####レスポンス例
+#### レスポンス例
 
 ```json
 {
