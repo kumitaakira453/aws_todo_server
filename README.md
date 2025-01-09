@@ -1,4 +1,4 @@
-# aws-todo-back
+# aws-todo-server
 
 ## DB 構成
 
