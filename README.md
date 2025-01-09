@@ -1,6 +1,6 @@
-# aws-todo-back
+# aws-todo-server
 
-##　DB 構成
+## DB 構成
 
 ```python
 class Todo(models.Model):
@@ -84,7 +84,7 @@ class Todo(models.Model):
 - **エンドポイント**: `/todo/update_todo`
 - **説明**: 既存の todo の`title`,`detail`,`deadLine`を更新
 
-####　リクエスト例
+#### リクエスト例
 
 ```json
 {
@@ -110,7 +110,7 @@ class Todo(models.Model):
 - **エンドポイント**: `/todo/update_todo`
 - **説明**: todo の完了状態を更新する
 
-####　リクエスト例
+#### リクエスト例
 
 ```json
 {
